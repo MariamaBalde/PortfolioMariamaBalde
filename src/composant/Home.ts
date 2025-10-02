@@ -16,8 +16,11 @@ export function Home() {
             <a href="#contact" class="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-8 rounded-full transition duration-300 shadow-lg">
               Me contacter
             </a>
-            <a href="#portfolio" class="border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 rounded-full transition duration-300">
-              Voir mes travaux
+            <a 
+              href="/images/Mariama Balde cv Francais.pdf"
+              download="CV_Mariama_Balde.pdf"
+              class="border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 rounded-full transition duration-300">
+              Download CV
             </a>
           </div>
         </div>
