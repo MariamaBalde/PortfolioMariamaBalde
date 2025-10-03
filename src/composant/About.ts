@@ -1,11 +1,11 @@
 export function About() {
   return `
-     <section id="about" class="py-20 bg-white">
+     <section id="about" class="py-12 md:py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
+    <div class="text-center mb-8 md:mb-16">
       <span class="text-primary font-medium">Mes détails</span>
-      <h2 class="text-4xl font-light text-text-dark mt-2">À propos de moi</h2>
-      <p class="text-lg text-text-light mt-4">
+      <h2 class="text-3xl md:text-4xl font-light text-text-dark mt-2">À propos de moi</h2>
+      <p class="text-base md:text-lg text-text-light mt-4 px-4">
         Développeuse web passionnée avec une solide formation en développement full-stack. 
         Je combine créativité et expertise technique pour créer des solutions web innovantes. 
         Mon parcours diversifié, de la physique au développement web, m'apporte une approche 
@@ -13,32 +13,32 @@ export function About() {
       </p>
     </div>
 
-    <div class="grid lg:grid-cols-2 gap-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
       <!-- Image Column -->
-      <div>
-        <img src="/images/about.jpg" alt="À propos" class="w-full rounded-lg shadow-xl">
+      <div class="px-4 sm:px-0">
+        <img src="/images/about.jpg" alt="À propos" class="w-full h-auto rounded-lg shadow-xl">
       </div>
 
       <!-- Content Column -->
-      <div>
+      <div class="px-4 sm:px-0">
         <div class="bg-white rounded-xl">
           <!-- Navigation Pills -->
-          <div class="mb-8">
-            <ul class="flex flex-wrap justify-center lg:justify-between gap-4 border border-gray-200 rounded-full p-2">
+          <div class="mb-6 md:mb-8 overflow-x-auto">
+            <ul class="flex flex-nowrap md:flex-wrap justify-start md:justify-center lg:justify-between gap-4 border border-gray-200 rounded-full p-2 min-w-max md:min-w-0">
               <li>
-                <button class="tab-btn px-6 py-2 rounded-full bg-primary text-white" data-tab="skills">Compétences</button>
+                <button class="tab-btn whitespace-nowrap px-4 md:px-6 py-2 rounded-full bg-primary text-white text-sm md:text-base" data-tab="skills">Compétences</button>
               </li>
               <li>
-                <button class="tab-btn px-6 py-2 rounded-full text-text-dark hover:bg-primary/10" data-tab="experience">Expérience</button>
+                <button class="tab-btn whitespace-nowrap px-4 md:px-6 py-2 rounded-full text-text-dark hover:bg-primary/10 text-sm md:text-base" data-tab="experience">Expérience</button>
               </li>
               <li>
-                <button class="tab-btn px-6 py-2 rounded-full text-text-dark hover:bg-primary/10" data-tab="education">Formation</button>
+                <button class="tab-btn whitespace-nowrap px-4 md:px-6 py-2 rounded-full text-text-dark hover:bg-primary/10 text-sm md:text-base" data-tab="education">Formation</button>
               </li>
             </ul>
           </div>
 
           <!-- Skills Content -->
-          <div id="skills" class="tab-content space-y-6 block">
+          <div id="skills" class="tab-content space-y-4 md:space-y-6 block">
             <div>
               <h6 class="font-semibold text-text-dark mb-4">Langages</h6>
               <div class="flex flex-wrap gap-2">
@@ -95,7 +95,7 @@ export function About() {
           </div>
 
           <!-- Experience Content -->
-          <div id="experience" class="tab-content space-y-6 hidden">
+          <div id="experience" class="tab-content space-y-4 md:space-y-6 hidden overflow-y-auto max-h-[600px] pr-2">
             <!-- Sonatel Academy -->
             <div class="border-l-2 border-primary pl-4 mb-8">
               <h4 class="font-semibold text-text-dark text-lg">Développeuse Fullstack Web/Mobile – Sonatel Academy (Orange Digital Center)</h4>
@@ -182,7 +182,7 @@ export function About() {
           </div>
 
           <!-- Education Content -->
-          <div id="education" class="tab-content space-y-6 hidden">
+          <div id="education" class="tab-content space-y-4 md:space-y-6 hidden">
             <div class="border-l-2 border-primary pl-4">
               <h4 class="font-semibold text-text-dark">Orange Digital Center</h4>
               <p class="text-text-light text-sm">Formation Développement Web/Mobile Full-Stack (2025)</p>
