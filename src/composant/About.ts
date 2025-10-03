@@ -96,26 +96,88 @@ export function About() {
 
           <!-- Experience Content -->
           <div id="experience" class="tab-content space-y-6 hidden">
-            <div class="border-l-2 border-primary pl-4">
-              <h4 class="font-semibold text-text-dark">Système de Gestion Administrative - Sonatel Academy</h4>
-              <p class="text-text-light text-sm">Technologies : PHP, HTML, CSS</p>
-              <p class="text-text-light mt-2">Développement d'un système complet de gestion administrative.</p>
+            <!-- Sonatel Academy -->
+            <div class="border-l-2 border-primary pl-4 mb-8">
+              <h4 class="font-semibold text-text-dark text-lg">Développeuse Fullstack Web/Mobile – Sonatel Academy (Orange Digital Center)</h4>
+              <p class="text-text-light text-sm mb-4">Janv. 2025 – Aujourd'hui | Dakar, Sénégal</p>
+              
+              <div class="space-y-6">
+                <!-- Projet Gestion Administrative -->
+                <div>
+                  <h5 class="font-medium text-text-dark">Projet Gestion Administrative</h5>
+                  <p class="text-text-light mb-2">Développement d'un système complet de gestion des apprenants.</p>
+                  <p class="text-text-light mb-1">Rôle : Développeuse Backend et Intégration Frontend</p>
+                  <p class="text-text-light mb-2">Technologies : PHP, HTML, CSS, MySQL</p>
+                  <a href="https://github.com/lien-vers-projet" class="text-primary hover:underline">Lien GitHub : Gestion-Apprenants-ODC</a>
+                </div>
+
+                <!-- Application Woyofal -->
+                <div>
+                  <h5 class="font-medium text-text-dark">Application Woyofal (Microservice)</h5>
+                  <p class="text-text-light mb-2">Conception d'un service de paiement digital simulé.</p>
+                  <p class="text-text-light mb-1">Rôle : Développeuse Fullstack</p>
+                  <p class="text-text-light mb-2">Technologies : Node.js, Express.js, PostgreSQL, API REST</p>
+                  <a href="https://github.com/lien-vers-projet" class="text-primary hover:underline">Lien GitHub : Application Woyofal</a>
+                </div>
+
+                <!-- Clone WhatsApp -->
+                <div>
+                  <h5 class="font-medium text-text-dark">Clone WhatsApp (Réseau Social)</h5>
+                  <p class="text-text-light mb-2">Développement d'une messagerie en temps réel.</p>
+                  <p class="text-text-light mb-1">Rôle : Développeuse Frontend</p>
+                  <p class="text-text-light mb-2">Technologies : JavaScript ES6+, Tailwind CSS</p>
+                  <a href="https://github.com/lien-vers-projet" class="text-primary hover:underline">Lien GitHub : Whatsapp Project</a>
+                </div>
+
+                <!-- Application de Gestion de Cargaisons -->
+                <div>
+                  <h5 class="font-medium text-text-dark">Application de Gestion de Cargaisons</h5>
+                  <p class="text-text-light mb-2">Suivi logistique des colis et cargaisons.</p>
+                  <p class="text-text-light mb-1">Rôle : Développeuse Fullstack</p>
+                  <p class="text-text-light mb-2">Technologies : PHP, MySQL, Bootstrap</p>
+                  <a href="https://github.com/lien-vers-projet" class="text-primary hover:underline">Lien GitHub : Gestion Cargaison</a>
+                </div>
+              </div>
             </div>
-            
-            <div class="border-l-2 border-primary pl-4">
-              <h4 class="font-semibold text-text-dark">Application Woyofal (microservice)</h4>
-              <p class="text-text-light mt-2">Développement d'un microservice pour la gestion de Woyofal.</p>
+
+            <!-- Bakeli School -->
+            <div class="border-l-2 border-primary pl-4 mb-8">
+              <h4 class="font-semibold text-text-dark text-lg">Développeuse Frontend Web – Bakeli School of Technology</h4>
+              <p class="text-text-light text-sm mb-4">2023 – 2024 | Dakar, Sénégal</p>
+              
+              <div class="space-y-6">
+                <!-- Portfolio Personnel -->
+                <div>
+                  <h5 class="font-medium text-text-dark">Portfolio Personnel</h5>
+                  <p class="text-text-light mb-2">Conception et développement d'un site personnel responsive.</p>
+                  <p class="text-text-light mb-1">Rôle : Développeuse Frontend</p>
+                  <p class="text-text-light mb-2">Technologies : React.js, Tailwind CSS, Vite</p>
+                  <a href="https://github.com/lien-vers-projet" class="text-primary hover:underline">Lien GitHub : Portfolio</a>
+                </div>
+
+                <!-- Site E-commerce -->
+                <div>
+                  <h5 class="font-medium text-text-dark">Site E-commerce (Hijabs Shop)</h5>
+                  <p class="text-text-light mb-2">Développement d'une boutique en ligne.</p>
+                  <p class="text-text-light mb-1">Rôle : Développeuse Frontend</p>
+                  <p class="text-text-light mb-2">Technologies : HTML, CSS, Bootstrap</p>
+                  <a href="https://demo-link" class="text-primary hover:underline">Lien Démo : Hijabs Soh</a>
+                </div>
+              </div>
             </div>
-            
+
+            <!-- SarayaTech -->
             <div class="border-l-2 border-primary pl-4">
-              <h4 class="font-semibold text-text-dark">Projet Réseau Social (Clone WhatsApp)</h4>
-              <p class="text-text-light text-sm">Technologies : JavaScript, Tailwind CSS</p>
-              <p class="text-text-light mt-2">Création d'un clone WhatsApp avec fonctionnalités de messagerie.</p>
-            </div>
-            
-            <div class="border-l-2 border-primary pl-4">
-              <h4 class="font-semibold text-text-dark">Application E-learning</h4>
-              <p class="text-text-light mt-2">Conception et développement d'une plateforme d'apprentissage en ligne.</p>
+              <h4 class="font-semibold text-text-dark text-lg">SarayaTech Sénégal</h4>
+              <p class="text-text-light text-sm mb-4">2021 – 2022 | Dakar, Sénégal</p>
+              
+              <div>
+                <h5 class="font-medium text-text-dark">Application E-learning</h5>
+                <p class="text-text-light mb-2">Création d'une plateforme de cours en ligne avec gestion des utilisateurs.</p>
+                <p class="text-text-light mb-1">Rôle : Développeuse Fullstack</p>
+                <p class="text-text-light mb-2">Technologies : React.js, Node.js, Firebase</p>
+                <a href="https://github.com/lien-vers-projet" class="text-primary hover:underline">Lien GitHub : E-learning App</a>
+              </div>
             </div>
           </div>
 
