@@ -10,11 +10,37 @@ export function Portfolio() {
         </p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <!-- Troisième projet -->
+        <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <div class="relative overflow-hidden">
+            <a href="https://tache21-e-learning-app-j7cx.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/Image collée (2).png" alt="Social Network" class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
+              <div class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                <div class="text-white text-center">
+                  <h3 class="font-semibold text-lg">E-learning Platform</h3>
+                  <p class="text-sm">Educational platform</p>
+                  <button class="mt-4 px-6 py-2 bg-white text-primary rounded-full hover:bg-primary hover:text-white transition duration-300">
+                    Voir le projet
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-text-dark mb-2">E-learning Platform</h3>
+            <p class="text-text-light text-sm mb-4">Educational platform</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">React js</span>
+              <span class="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Tailwind css</span>
+              <span class="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Firebase</span>
+            </div>
+          </div>
+        </div>
       
       <!-- Premier projet -->
       <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
           <div class="relative overflow-hidden">
-            <a href="https://votre-lien-deploy-1.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MariamaBalde/Gestion-Apprenants-ODC.git" target="_blank" rel="noopener noreferrer">
               <img src="/images/GesAdminODC.png" alt="E-commerce Site" class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
               <div class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                 <div class="text-white text-center">
@@ -45,7 +71,7 @@ export function Portfolio() {
       <!-- Deuxième projet -->
         <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
           <div class="relative overflow-hidden">
-            <a href="https://votre-lien-deploy-2.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://mariamabalde.github.io/Mini-Projet--Bootstrap/" target="_blank" rel="noopener noreferrer">
               <img src="/images/boutique en ligne.png" alt="E-learning Platform" class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
               <div class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                 <div class="text-white text-center">
@@ -68,37 +94,12 @@ export function Portfolio() {
           </div>
         </div>
       
-      <!-- Troisième projet -->
-        <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-          <div class="relative overflow-hidden">
-            <a href="https://votre-lien-deploy-3.com" target="_blank" rel="noopener noreferrer">
-              <img src="/images/e-learning.png" alt="Social Network" class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
-              <div class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
-                <div class="text-white text-center">
-                  <h3 class="font-semibold text-lg">E-learning Platform</h3>
-                  <p class="text-sm">Educational platform</p>
-                  <button class="mt-4 px-6 py-2 bg-white text-primary rounded-full hover:bg-primary hover:text-white transition duration-300">
-                    Voir le projet
-                  </button>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-text-dark mb-2">E-learning Platform</h3>
-            <p class="text-text-light text-sm mb-4">Educational platform</p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">React js</span>
-              <span class="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Tailwind css</span>
-              <span class="bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">Firebase</span>
-            </div>
-          </div>
-        </div>
+
 
       <!-- Quatrième projet -->
         <div class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
           <div class="relative overflow-hidden">
-            <a href="https://votre-lien-deploy-4.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://mariamabalde.github.io/T-ches_validation_Javascript/" target="_blank" rel="noopener noreferrer">
               <img src="/images/project-ecommerce1.jpg" alt="Admin System" class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
               <div class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                 <div class="text-white text-center">
